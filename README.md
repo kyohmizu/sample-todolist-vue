@@ -1,5 +1,7 @@
 # todolist
 
+Created for <https://github.com/runceel/VueJSCRUDHandsOn>
+
 ## Project setup
 ```
 npm install
