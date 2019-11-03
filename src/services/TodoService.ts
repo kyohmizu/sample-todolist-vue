@@ -2,7 +2,7 @@ import TodoItem from '@/models/TodoItem';
 import axiosBase from 'axios';
 
 const axios = axiosBase.create({
-  baseURL: 'http://localhost:9999',
+  baseURL: process.env.VUE_APP_API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
